@@ -1,5 +1,5 @@
 <h1 align = "center">
-Oracle + Alura: One Next Education (ONE) <img align = "right" height = 100em src = "images/logo-one-color.png">
+Oracle + Alura: One Next Education (ONE) <img align = "right" height = 100em src = "img/logo-one-color.png">
 </h1>
 
 <h1 align = "center"> Reto 1: Encriptador de Texto </h1>
@@ -39,7 +39,7 @@ Ejemplos:
 La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones. El resultado debe ser mostrado en la pantalla.
 
 Extras:
-- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del `Ctrl + C` o de la opción "copiar" del menú de las aplicaciones.
 
 ## Insignia
 
