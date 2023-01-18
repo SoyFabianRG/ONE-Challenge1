@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1 - Encriptador de Texto</title>
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <div>
+        <section>
+
+            <section>
+
+                <h2> ¿Qué mensaje quieres encriptar? ¡Recuerda solo usar letras minúsculas y sin tildes! </h2>
+                <textarea id="entrada" placeholder="Introduzca su mensaje"></textarea>
+
+                <section>
+                    <button id="encriptar" onclick="encriptarMensaje()"> Encriptar </button>
+                    <button id="desencriptar" onclick="desencriptarMensaje()"> Desencriptar </button>
+                </section>
+
+            </section>
+
+        </section>
+
+        <section>
+
+            <textarea id="salida" placeholder="Su mensaje" readonly></textarea>
+
+            <section>
+                <button id="copiar" onclick="copiarMensaje()"> Copiar </button>
+                <button id="eliminar" onclick="eliminarMensaje()"> Eliminar </button>
+            </section>
+
+        </section>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="scripts/encriptarMensaje.js"></script>
+    <script src="scripts/desencriptarMensaje.js"></script>
+    <script src="scripts/copiarMensaje.js"></script>
+    <script src="scripts/eliminarMensaje.js"></script>
+
+</body>
+</html>
