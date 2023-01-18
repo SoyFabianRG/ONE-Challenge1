@@ -45,5 +45,11 @@ Extras:
 
 Puedes ver mi progreso en mi [perfil](https://app.aluracursos.com/user/soyfabianrg) de Alura Latam.
 
+<div align="center">
+
+<img src="img/badge-challenge1.png" width="300">
+
+</div>
+
 ## Autor
 Hecho por [Fabián Ríos](https://www.linkedin.com/in/soyfabianrg)
