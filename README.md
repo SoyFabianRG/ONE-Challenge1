@@ -1,8 +1,8 @@
-<h1 align = "center">
-Oracle + Alura: One Next Education (ONE) <img align = "right" height = 100em src = "images/logo-one-color.png">
-</h1>
-
-<h1 align = "center"> Reto 1: Encriptador de Texto </h1>
+<div align = "center">
+  	<img src = "img/logo-one-color.png" width = "300">
+  	<h1> Oracle + Alura: One Next Education (ONE) </h1>
+	<h1> Reto 1: Encriptador de Texto </h1>
+</div>
 
 Este es el primer reto del programa [One Next Education (ONE)](https://www.oracle.com/mx/education/oracle-next-education) el cual es parte de la ruta "Principiante en Programación".
 
@@ -39,16 +39,14 @@ Ejemplos:
 La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones. El resultado debe ser mostrado en la pantalla.
 
 Extras:
-- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del `Ctrl + C` o de la opción "copiar" del menú de las aplicaciones.
 
 ## Insignia
 
 Puedes ver mi progreso en mi [perfil](https://app.aluracursos.com/user/soyfabianrg) de Alura Latam.
 
-<div align="center">
-
-<img src="img/badge-challenge1.png" width="300">
-
+<div align = "center">
+	<img src = "img/badge-challenge1.png" width = "300">
 </div>
 
 ## Autor
