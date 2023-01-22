@@ -4,7 +4,7 @@ Oracle + Alura: One Next Education (ONE) <img align = "right" height = 100em src
 
 <h1 align = "center"> Reto 1: Encriptador de Texto </h1>
 
-Este es el primer reto de la ruta "Principiante en Programación" del programa [One Next Education (ONE)](https://www.oracle.com/mx/education/oracle-next-education). 
+Este es el primer reto del programa [One Next Education (ONE)](https://www.oracle.com/mx/education/oracle-next-education) el cual es parte de la ruta "Principiante en Programación".
 
 Puedes ver el resultado del desafío en:
 
