@@ -1,10 +1,10 @@
 <div align = "center">
-  	<img src = "https://i.imgur.com/g2dTSji.png" width = "300">
+  	<img src = "https://i.imgur.com/FMzYo5v.png" width = "300">
   	<h1> Oracle + Alura: One Next Education (ONE) </h1>
 	<h1> Reto 1: Encriptador de Texto </h1>
 </div>
 
-Este es el primer reto del programa [One Next Education (ONE)](https://www.oracle.com/mx/education/oracle-next-education) el cual es parte de la ruta "Principiante en Programación".
+Este es el primer reto del programa [Oracle Next Education (ONE)](https://www.oracle.com/mx/education/oracle-next-education) el cual es parte de la ruta "Principiante en Programación".
 
 Puedes ver el resultado del desafío en:
 
@@ -46,7 +46,7 @@ Extras:
 Puedes ver mi progreso en mi [perfil](https://app.aluracursos.com/user/soyfabianrg) de Alura Latam.
 
 <div align = "center">
-	<img src = "https://i.imgur.com/AoOkIeJ.png" width = "300">
+	<img src = "https://i.imgur.com/OeeEfgf.png" width = "300">
 </div>
 
 ## Autor
