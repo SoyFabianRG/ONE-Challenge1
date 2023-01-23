@@ -1,5 +1,5 @@
 <div align = "center">
-  	<img src = "img/logo-one-color.png" width = "300">
+  	<img src = "https://i.imgur.com/g2dTSji.png" width = "300">
   	<h1> Oracle + Alura: One Next Education (ONE) </h1>
 	<h1> Reto 1: Encriptador de Texto </h1>
 </div>
@@ -46,7 +46,7 @@ Extras:
 Puedes ver mi progreso en mi [perfil](https://app.aluracursos.com/user/soyfabianrg) de Alura Latam.
 
 <div align = "center">
-	<img src = "img/badge-challenge1.png" width = "300">
+	<img src = "https://i.imgur.com/AoOkIeJ.png" width = "300">
 </div>
 
 ## Autor
