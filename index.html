@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Challenge 1: Encriptador de Texto </title>
-    <link href="css/reset.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Challenge 1: Encriptador de Texto</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap">
 </head>
 
 <body>
-    <div>
-        <section>
-            <section>
-                <h2> ¿Qué mensaje quieres encriptar? ¡Recuerda solo usar letras minúsculas y sin tildes! </h2>
-                <textarea id="entrada" placeholder="Introduzca su mensaje"></textarea>
-                <section>
-                    <button id="encriptar" onclick="encriptarMensaje()"> Encriptar </button>
-                    <button id="desencriptar" onclick="desencriptarMensaje()"> Desencriptar </button>
-                </section>
-            </section>
-        </section>
 
-        <section>
-            <textarea id="salida" placeholder="Su mensaje" readonly></textarea>
-            <section>
-                <button id="copiar" onclick="copiarMensaje()"> Copiar </button>
-                <button id="eliminar" onclick="eliminarMensaje()"> Eliminar </button>
-            </section>
-        </section>
-    </div>
+	<header>
+		<img class="logo" src="img/logo.svg">
+	</header>
 
-    <!-- SCRIPTS -->
-    <script src="scripts/encriptarMensaje.js"></script>
-    <script src="scripts/desencriptarMensaje.js"></script>
-    <script src="scripts/copiarMensaje.js"></script>
-    <script src="scripts/eliminarMensaje.js"></script>
+	<main>
+
+		<section class="seccion1">
+
+			<div class="contenedorCajaTexto">
+				<textarea id="entrada" class="cajaTexto" placeholder="Ingrese su mensaje"></textarea>
+			</div>
+
+			<div class="alerta">
+				<img src="img/alert.svg">
+				<p>Solo letras minúsculas y sin acentos</p>
+			</div>
+
+			<div class="contenedorBotonesEncriptarDesencriptar">
+				<button class="botonEncriptar" id="encriptar" onclick="encriptarMensaje()"> Encriptar </button>
+				<button class="botonDesencriptar" id="desencriptar" onclick="desencriptarMensaje()"> Desencriptar </button>
+			</div>
+
+		</section>
+
+		<section class="seccion2">
+
+			<div class="contenedorPersonaje">
+				<img src="img/character.svg">
+			</div>
+
+			<div class="contenedorResultado">
+				<textarea class="textoResultado" id="salida" placeholder="Ingresa el texto que desees encriptar o desencriptar" readonly></textarea>
+			</div>
+
+			<div class="contenedorBotonesCopiarEliminar">
+				<button class="botonCopiar" id="copiar" onclick="copiarMensaje()"> Copiar </button>
+				<button class="botonEliminar" id="eliminar" onclick="eliminarMensaje()"> Eliminar </button>
+			</div>
+
+		</section>
+
+	</main>
+
+	<!-- SCRIPTS -->
+	<script src="main.js"></script>
 
 </body>
 </html>

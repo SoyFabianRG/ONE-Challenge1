@@ -1,6 +1,6 @@
 <div align = "center">
-  	<img src = "https://i.imgur.com/FMzYo5v.png" width = "300">
-  	<h1> Oracle + Alura: Oracle Next Education (ONE) </h1>
+	<img src = "https://i.imgur.com/FMzYo5v.png" width = "300">
+	<h1> Oracle + Alura: Oracle Next Education (ONE) </h1>
 	<h1> Reto 1: Encriptador de Texto </h1>
 </div>
 
