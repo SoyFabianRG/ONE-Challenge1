@@ -1,11 +1,14 @@
-var botonEncriptar = document.querySelector("button#encriptar");
-var botonDesencriptar = document.querySelector("button#desencriptar");
+var botonEncriptar = document.querySelector("button#botonEncriptar");
+var botonDesencriptar = document.querySelector("button#botonDesencriptar");
 
-var botonCopiar = document.getElementById("button#copiar");
-var botonEliminar = document.getElementById("button#eliminar");
+var botonCopiar = document.getElementById("button#botonCopiar");
+var botonEliminar = document.getElementById("button#botonEliminar");
 
-var mensajeEntrada = document.querySelector("textarea#entrada");
-var mensajeSalida = document.querySelector("textarea#salida");
+var mensajeEntrada = document.querySelector("textarea#textoEntrada");
+var mensajeSalida = document.querySelector("textarea#textoSalida");
+
+botonEncriptar.onclick = encriptarMensaje;
+botonDesencriptar.onclick = desencriptarMensaje;
 
 function encriptarMensaje()
 {
@@ -30,6 +33,9 @@ function encriptarMensaje()
 		var txt = txt.replace(/u/g, "ufat");
 
 		mensajeSalida.innerHTML = `${txt}`;
+
+		document.getElementById('copiar').innerHTML = '<button class="botonCopiar" onclick="copiarMensaje()"> Copiar </button>';
+		document.getElementById('eliminar').innerHTML = '<button class="botonEliminar" onclick="eliminarMensaje()"> Eliminar </button>';
 	}
 }
 
@@ -56,6 +62,9 @@ function desencriptarMensaje()
 		var txt = txt.replace(/ufat/g, "u");
 
 		mensajeSalida.innerHTML = `${txt}`;
+
+		document.getElementById('copiar').innerHTML = '<button class="botonCopiar" onclick="copiarMensaje()"> Copiar </button>';
+		document.getElementById('eliminar').innerHTML = '<button class="botonEliminar" onclick="eliminarMensaje()"> Eliminar </button>';
 	}
 }
 
